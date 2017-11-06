@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # Kairos Website
 
+=======
+# Kairos
+>>>>>>> Fix typo
 This is the website for the *Kairos Corporation*.
 This is a one-page-portfolio based on the self-named template made by [Justice](https://freehtml5.co/demos/justice/). Noteworthy features of this Hugo theme are a custom about section, a team section and a contact form.
 
