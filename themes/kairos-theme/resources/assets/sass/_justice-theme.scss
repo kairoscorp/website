@@ -6,8 +6,8 @@ $grid-gutter-width: 40px;
 $border-radius-base:  4px;
 $padding-base-vertical: 14px;
 
-$brand-primary: #7ED321;
-$brand-secondary: #118DF0; 
+$brand-primary: #5bc0de;
+$brand-secondary: rgb(218, 32, 19); 
 
 $brand-white: #fff;
 $brand-black: #000;
@@ -1324,10 +1324,9 @@ form {
 }
 
 
-
-.row-pb-md {
-	padding-bottom: 4em!important;
-}
+// .row-pb-md {
+// 	padding-bottom: 4em!important;
+// }
 .row-pb-sm {
 	padding-bottom: 2em!important;
 }
