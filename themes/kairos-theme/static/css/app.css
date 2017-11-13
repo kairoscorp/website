@@ -9035,43 +9035,39 @@ form label {
   opacity: 0;
 }
 
-#gtco-hero .display-tc h1.title {
-  font-size: 85px;
-}
-
-@media screen and (max-width: 768px) {
-  #gtco-hero .display-tc h1.title {
-    font-size: 60px;
-  }
-}
-
-#gtco-hero .display-tc h2.subtitle {
-  font-size: 35px;
-}
-
-@media screen and (max-width: 768px) {
-  #gtco-hero .display-tc h2.subtitle {
-    font-size: 25px;
-  }
-}
-
 .gtco-cover {
   width: 100%;
   width: -moz-available;
-  /* WebKit-based browsers will ignore this. */
   width: -webkit-fill-available;
-  /* Mozilla-based browsers will ignore this. */
   height: 100%;
   height: -moz-available;
-  /* WebKit-based browsers will ignore this. */
   height: -webkit-fill-available;
-  /* Mozilla-based browsers will ignore this. */
 }
 
 @media screen and (max-width: 768px) {
   .gtco-cover {
     width: 100%;
     height: 100%;
+  }
+}
+
+.gtco-cover .display-tc h1.title {
+  font-size: 85px;
+}
+
+@media screen and (max-width: 768px) {
+  .gtco-cover .display-tc h1.title {
+    font-size: 60px;
+  }
+}
+
+.gtco-cover .display-tc h2.subtitle {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .gtco-cover .display-tc h2.subtitle {
+    font-size: 25px;
   }
 }
 
@@ -9107,8 +9103,8 @@ form label {
 
 .team .row .team-img {
   border-radius: 100%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-size: cover;
   vertical-align: middle;
   display: inline-block;
@@ -9130,12 +9126,16 @@ form label {
   display: inline;
   list-style-type: none;
   padding-right: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 #gtco-footer {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.description {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=app.css.map */
