@@ -1,0 +1,19 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "justice-theme";
+
+@import "canvas";
+
+@import "cover";
+
+@import "about";
+
+@import "navbar";
+
+@import "team";
+
+@import "footer";
+
+.description {
+  text-align: justify;
+}
