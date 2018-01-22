@@ -1,17 +1,32 @@
 baseURL = "https://kairoscorp.github.io/"
-languageCode = "en-us"
-title = "Kairos"
+DefaultContentLanguage = "en"
+
 theme = "kairos-theme"
+title = "Kairos"
 
-defaultContentLanguage = "en"
-
-[languages]
 [languages.en]
-weight = 0
-copyright = "&copy; 2016 Free HTML5. All Rights Reserved."
-title = "My blog"
+    weight = 20
+    languageName = "English"
+    languageCode = "en-uk"
+    copyright = "All rights reserved."
+
+    description = "The right tools at just the right time."
+
+    [[languages.en.menu.main]]
+        url    = "/"
+        name   = "Home"
+        weight = 0
+
 
 [languages.fr]
-weight = 1
-copyright = "Tout est à moi"
-title = "Mon blog"
+    weight = 10
+    languageName = "Français"
+    languageCode = "fr-fr"
+    copyright = "Alle Rechte vorbehalten."
+
+    description = "what the hell Je ne c'est pas."
+
+    [[languages.fr.menu.main]]
+        url    = "/"
+        name   = "Startseite"
+        weight = 0

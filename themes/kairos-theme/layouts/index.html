@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  {{ partial "header" }}
+  {{ partial "header" . }}
 
   <body>
 
@@ -8,17 +8,17 @@
 
     <div id="page">
 
-      {{ partial "navbar" }}
+      {{ partial "navbar" . }}
 
-      {{ partial "cover" }}
+      {{ partial "cover" . }}
 
-      {{ partial "about" }}
+      {{ partial "about" . }}
 
       {{ partial "team" . }}
 
-      {{ partial "contact" }}
+      {{ partial "contact" . }}
 
-      {{ partial "footer" }}
+      {{ partial "footer" . }}
 
       <div class="gototop js-top">
         <a href="#" class="js-gotop">
