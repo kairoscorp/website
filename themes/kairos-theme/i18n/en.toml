@@ -36,3 +36,9 @@ other="Team members"
 
 [team_description]
 other="Well-rounded and efficient, this team is heavily rooted in Software Engineering without disregarding UX and UI."
+
+#
+#   Footer
+#
+[footer_copyright]
+other="2017 © Copyright by Kairos"
