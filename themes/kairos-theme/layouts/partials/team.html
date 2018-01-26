@@ -1,4 +1,5 @@
-{{ $members_count := len .Site.Data.members }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $members_count := len $data.members }}
 {{ if gt $members_count 0 }}
 <section id="gtco-our-team" class="team" data-section="our-team">
   <div class="container">
@@ -11,9 +12,9 @@
     </div>
 
     <div class="row multi-columns-row">
-        {{range .Site.Data.members }}
+        {{range $data.members }}
           {{ partial "member" . }}
-        {{ end }}                
+        {{ end }}
     </div>
 </section>
 {{ end }}
