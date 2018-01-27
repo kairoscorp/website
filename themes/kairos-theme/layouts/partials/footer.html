@@ -5,7 +5,11 @@
             <div>{{ i18n "footer_copyright" }}</div>
         </div>
         <div class="col-md-6 social-links">
-            <a class="btn btn-primary btn-sm social-link" target="_blank" href="https://github.com/kairoscorp"><i class="fa fa-twitter fa-fw"></i></a>
+          {{ range $.Site.Home.AllTranslations }}
+            {{ if ne $.Site.Language.Lang .Language.Lang }}
+              <a class="btn btn-primary btn-sm social-link" href="/{{ .Language.Lang }}"><i class="fa fa-globe fa-fw"></i></a>
+            {{ end }}
+          {{ end }}
         </div>
     </div>
 </footer>

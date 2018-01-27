@@ -7,7 +7,7 @@ title = "Kairos"
 [languages.en]
     weight = 20
     languageName = "English"
-    languageCode = "en-uk"
+    languageCode = "en"
     copyright = "All rights reserved."
 
     description = "The right tools at just the right time."
@@ -28,7 +28,7 @@ title = "Kairos"
 [languages.fr]
     weight = 10
     languageName = "Français"
-    languageCode = "fr-fr"
+    languageCode = "fr"
     copyright = "Alle Rechte vorbehalten."
 
     description = "what the hell Je ne c'est pas."
