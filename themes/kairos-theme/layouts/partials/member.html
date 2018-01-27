@@ -7,26 +7,27 @@
       <h3 class="name">{{ .Name }}</h3>
       <div class="position">{{ .Job }}</div>
       <ul class="socials">
-        <li>
-          <a href="#">
-            <i class="fa fa-facebook fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-twitter fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-google-plus fa-lg"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-instagram fa-lg"></i>
-          </a>
-        </li>
+        {{ if .Linkedin }}
+          <li>
+            <a href="{{ .Linkedin }}" target="_blank">
+              <i class="fa fa-linkedin fa-lg"></i>
+            </a>
+          </li>
+        {{ end }}
+        {{ if .Twitter }}
+          <li>
+            <a href="{{ .Twitter }}" target="_blank">
+              <i class="fa fa-twitter fa-lg"></i>
+            </a>
+          </li>
+        {{ end }}
+        {{ if .Github }}
+          <li>
+            <a href="{{ .Github }}" target="_blank">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+          </li>
+        {{ end }}
       </ul>
     </div>
   </div>

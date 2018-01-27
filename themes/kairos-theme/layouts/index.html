@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  {{ partial "header" }}
+  {{ partial "header" . }}
 
   <body>
 
     <div class="gtco-loader"></div>
-      
+
     <div id="page">
 
-      {{ partial "navbar" }}
-        
-      {{ partial "cover" }}
+      {{ partial "navbar" . }}
 
-      {{ partial "about" }}
+      {{ partial "cover" . }}
+
+      {{ partial "about" . }}
 
       {{ partial "team" . }}
 
-      {{ partial "contact" }}
-
-      {{ partial "footer" }}
+      {{ partial "footer" . }}
 
       <div class="gototop js-top">
         <a href="#" class="js-gotop">
@@ -29,5 +27,5 @@
       {{ partial "script.html" }}
 
     </div>
-  </body>  
+  </body>
 </html>

@@ -8,20 +8,12 @@
       </div>
       <div class="col-xs-10 text-right menu-1 main-nav">
         <ul>
-          <li class="active">
-            <a href="#" data-nav-section="home">Home</a>
+          {{- $currentPage := . -}}
+          {{ range .Site.Menus.main -}}
+          <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+              <a href="#" data-nav-section="{{ .Identifier }}">{{ .Name }}</a>
           </li>
-          <li>
-            <a href="#" data-nav-section="about">About</a>
-          </li>
-          <li>
-            <a href="#" data-nav-section="our-team">Our Team</a>
-          </li>
-          <li class="btn-cta">
-            <a href="#" data-nav-section="contact">
-              <span>Contact</span>
-            </a>
-          </li>
+          {{- end }}
         </ul>
       </div>
     </div>

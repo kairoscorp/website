@@ -1,19 +1,20 @@
-{{ $members_count := len .Site.Data.members }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $members_count := len $data.members }}
 {{ if gt $members_count 0 }}
 <section id="gtco-our-team" class="team" data-section="our-team">
   <div class="container">
     <div class="row row-pb-md">
       <div class="col-md-8 col-md-offset-2 heading animate-box" data-animate-effect="fadeIn">
         <h1>Team Members</h1>
-        <p class="sub">Donec nec justo eget felis facilisis fermentum. Aliquam dignissim felis auctor ultrices ut elementum.</p>
+        <p class="sub">{{ i18n "team_description" }}</p>
         <p class="subtle-text animate-box" data-animate-effect="fadeIn"></p>
       </div>
     </div>
 
     <div class="row multi-columns-row">
-        {{range .Site.Data.members }}
+        {{range $data.members }}
           {{ partial "member" . }}
-        {{ end }}                
+        {{ end }}
     </div>
 </section>
 {{ end }}

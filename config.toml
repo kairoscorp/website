@@ -1,4 +1,47 @@
 baseURL = "https://kairoscorp.github.io/"
-languageCode = "en-us"
-title = "Kairos"
+DefaultContentLanguage = "en"
+
 theme = "kairos-theme"
+title = "Kairos"
+
+[languages.en]
+    weight = 20
+    languageName = "English"
+    languageCode = "en"
+    copyright = "All rights reserved."
+
+    description = "The right tools at just the right time."
+
+    [[languages.en.menu.main]]
+        name              = "Home"
+        weight            = 1
+        identifier        = "home"
+    [[languages.en.menu.main]]
+        name              = "About"
+        weight            = 2
+        identifier        = "about"
+    [[languages.en.menu.main]]
+        name              = "Team"
+        weight            = 3
+        identifier        = "our-team"
+
+[languages.fr]
+    weight = 10
+    languageName = "Français"
+    languageCode = "fr"
+    copyright = "Alle Rechte vorbehalten."
+
+    description = "what the hell Je ne c'est pas."
+
+    [[languages.fr.menu.main]]
+        name              = "dsadsa"
+        weight            = 1
+        identifier        = "home"
+    [[languages.fr.menu.main]]
+        name              = "dsadas"
+        weight            = 2
+        identifier        = "about"
+    [[languages.fr.menu.main]]
+        name              = "dsadas"
+        weight            = 3
+        identifier        = "our-team"
