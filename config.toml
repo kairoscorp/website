@@ -13,10 +13,17 @@ title = "Kairos"
     description = "The right tools at just the right time."
 
     [[languages.en.menu.main]]
-        url    = "/"
-        name   = "Home"
-        weight = 0
-
+        name              = "Home"
+        weight            = 1
+        identifier        = "home"
+    [[languages.en.menu.main]]
+        name              = "About"
+        weight            = 2
+        identifier        = "about"
+    [[languages.en.menu.main]]
+        name              = "Team"
+        weight            = 3
+        identifier        = "our-team"
 
 [languages.fr]
     weight = 10
@@ -27,6 +34,14 @@ title = "Kairos"
     description = "what the hell Je ne c'est pas."
 
     [[languages.fr.menu.main]]
-        url    = "/"
-        name   = "Startseite"
-        weight = 0
+        name              = "dsadsa"
+        weight            = 1
+        identifier        = "home"
+    [[languages.fr.menu.main]]
+        name              = "dsadas"
+        weight            = 2
+        identifier        = "about"
+    [[languages.fr.menu.main]]
+        name              = "dsadas"
+        weight            = 3
+        identifier        = "our-team"
