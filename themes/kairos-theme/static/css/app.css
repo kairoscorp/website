@@ -9121,9 +9121,7 @@ form label {
 .team .row .team-img {
   border-radius: 100%;
   width: 150px;
-  height: 150px;
   background-size: cover;
-  vertical-align: middle;
   display: inline-block;
 }
 
