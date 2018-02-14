@@ -5,28 +5,28 @@ other = "Multilingual"
 #   About
 #
 [about_title]
-other="The Kairos Project"
+other="The Kairos Launcher"
 
 [about_description]
-other="We are changing the way technology interacts with you, making it even smarter and accommodated to your necessities."
+other="We are changing the way technology interacts with you, the Kairos Launcher is an intelligent app for Android that automatically adapts to you."
 
 [about_feature1]
-other="Context Separation"
+other="Made for you"
 
 [about_feature_description1]
-other="Have the apps that you need right when you need them"
+other="A personalised experience just for you. With AI learning techniques, Kairos will learn your routine."
 
 [about_feature2]
-other="Statistics"
+other="Context Aware"
 
 [about_feature_description2]
-other="Keep track of where you spend your time. Perhaps you are wasting too much time on social media!"
+other="The apps you need right when you need them. No longer have Instagram temptations during work."
 
 [about_feature3]
-other="Goals"
+other="Statistics"
 
 [about_feature_description3]
-other="Have the apps that you need right when you need them"
+other="Keep track of where you spend your time. Increase your productivity by noticing your patterns."
 
 #
 #   Team Members
